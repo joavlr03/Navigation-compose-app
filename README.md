@@ -59,3 +59,5 @@ Clone o repositório:
 git clone https://github.com/joavlr03/Navigation-compose-app.git
 ```
 ### 📸 Preview
+<img width="251" height="542" alt="TelaLogin" src="https://github.com/user-attachments/assets/d0de1cd8-3351-46f5-95fd-24df013247bf" />
+
