@@ -59,5 +59,23 @@ Clone o repositório:
 git clone https://github.com/joavlr03/Navigation-compose-app.git
 ```
 ### 📸 Preview
+
+## Tela de Login
 <img width="251" height="542" alt="TelaLogin" src="https://github.com/user-attachments/assets/d0de1cd8-3351-46f5-95fd-24df013247bf" />
+
+## Tela de Menu
+<img width="247" height="546" alt="TelaMenu" src="https://github.com/user-attachments/assets/6a02b873-3702-4e92-9676-215be21314a5" />
+
+## Tela de Perfil
+<img width="245" height="543" alt="TelaPerfil" src="https://github.com/user-attachments/assets/777406d2-0f9a-49fd-98d6-64bee67dac9e" />
+
+## Tela de Pedidos
+<img width="247" height="545" alt="TelaPedidos" src="https://github.com/user-attachments/assets/4455c9b1-9fbf-49eb-93cf-ef536097f6ec" />
+
+
+
+
+
+
+
 
