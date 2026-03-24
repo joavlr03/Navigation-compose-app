@@ -55,7 +55,7 @@ import androidx.navigation.NavController
                 }
                 Spacer(modifier = Modifier.height(16.dp))
                 Button(
-                    onClick = { navController.navigate("pedidos?cliente=Cliente XPTO") },
+                    onClick = { navController.navigate("pedidos?cliente=Cliente XPT") },
                     colors = ButtonDefaults.buttonColors(Color.White),
                     modifier = Modifier.size(width = 200.dp, height = 48.dp)
                 ) {
