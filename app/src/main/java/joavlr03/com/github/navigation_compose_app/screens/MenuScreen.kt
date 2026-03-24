@@ -43,12 +43,11 @@ import androidx.navigation.NavController
                     .align(Alignment.Center)
             ) {
                 Button(
-                    onClick = {navController.navigate("Perfil")},
+                    onClick = { navController.navigate("perfil/Fulano de Tal") },
                     colors = ButtonDefaults.buttonColors(Color.White),
                     modifier = Modifier.size(width = 200.dp, height = 48.dp)
                 ) {
                     Text(
-
                         text = "Perfil",
                         fontSize = 20.sp,
                         color = Color.Blue

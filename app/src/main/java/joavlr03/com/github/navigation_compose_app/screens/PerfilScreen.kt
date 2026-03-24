@@ -18,29 +18,37 @@ import androidx.navigation.NavController
 
 @Composable
 fun PerfilScreen(modifier: Modifier = Modifier, navController: NavController) {
-    Box(
-        modifier = modifier
-            .fillMaxSize()
-            .background(Color(0xFF8E44AD))
-            .padding(32.dp)
+    @Composable
+    fun PerfilScreen(
+        modifier: Modifier = Modifier,
+        navController: NavController,
+        nome: String
     ) {
-        Text(
-            text = "PERFIL",
-            fontSize = 24.sp,
-            fontWeight = FontWeight.Bold,
-            color = Color.White
-        )
-        Button(
-            onClick = {navController.navigate(route = "Menu")},
-            colors = ButtonDefaults.buttonColors(Color.White),
-            modifier = Modifier.align(Alignment.Center)
-
+        Box(
+            modifier = modifier
+                .fillMaxSize()
+                .background(Color(0xFF8E44AD))
+                .padding(32.dp)
         ) {
             Text(
-                text = "Voltar",
-                fontSize = 20.sp,
-                color = Color.Blue
+                text = "PERFIL - $nome",
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
             )
+            Button(
+                onClick = { navController.navigate(route = "Menu") },
+                colors = ButtonDefaults.buttonColors(Color.White),
+                modifier = Modifier.align(Alignment.Center)
+
+            ) {
+                Text(
+                    text = "Voltar",
+                    fontSize = 20.sp,
+                    color = Color.Blue
+                )
+            }
         }
     }
 }
+
