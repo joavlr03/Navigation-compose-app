@@ -43,7 +43,7 @@ import androidx.navigation.NavController
                     .align(Alignment.Center)
             ) {
                 Button(
-                    onClick = { navController.navigate("perfil/Fulano de Tal") },
+                    onClick = { navController.navigate("perfil/Fulano de Tal/27") },
                     colors = ButtonDefaults.buttonColors(Color.White),
                     modifier = Modifier.size(width = 200.dp, height = 48.dp)
                 ) {
@@ -55,7 +55,7 @@ import androidx.navigation.NavController
                 }
                 Spacer(modifier = Modifier.height(16.dp))
                 Button(
-                    onClick = {navController.navigate("Pedidos")},
+                    onClick = { navController.navigate("pedidos?cliente=Cliente XPTO") },
                     colors = ButtonDefaults.buttonColors(Color.White),
                     modifier = Modifier.size(width = 200.dp, height = 48.dp)
                 ) {
